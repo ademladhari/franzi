@@ -1,0 +1,43 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* src/fonts/fonts.css */
+@font-face {
+  font-family: 'Nexa';
+  src: url('./assets/Nexa-heavy.ttf') format('truetype');
+  font-weight: 600; /* ExtraLight */
+  font-style: italic;
+}
+.font-nunito {
+  font-family: 'Nunito', sans-serif;
+}
+
+.font-nexa {
+  font-family: 'Nexa' ;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+background-color: rgb(243 244 246);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+
+}
+
